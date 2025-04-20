@@ -4,6 +4,7 @@ import { StartAnimation } from "./components/StartAnimation";
 import './index.css';
 import { Navbar } from "./components/Navbar";
 import { MobileNav } from "./components/MobileNav";
+import { Home } from "./components/sections/Home";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -16,6 +17,7 @@ function App() {
         isLoaded ? "opacity-100" : "opacity-0"} bg-black text-gray-100`}>
           <Navbar navOpen={navOpen} setNavOpen={setNavOpen} />
           <MobileNav navOpen={navOpen} setNavOpen={setNavOpen} />
+          <Home />
       </div>
     </>
     );   
