@@ -5,6 +5,7 @@ import './index.css';
 import { Navbar } from "./components/Navbar";
 import { MobileNav } from "./components/MobileNav";
 import { Home } from "./components/sections/Home";
+import { About } from "./components/sections/About";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -18,6 +19,7 @@ function App() {
           <Navbar navOpen={navOpen} setNavOpen={setNavOpen} />
           <MobileNav navOpen={navOpen} setNavOpen={setNavOpen} />
           <Home />
+          <About />
       </div>
     </>
     );   
