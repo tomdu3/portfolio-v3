@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-expert const RevealOnScroll = ({ children }) => {
+export const RevealOnScroll = ({ children }) => {
     const ref = useRef(null);
 
     useEffect(() => {
@@ -23,10 +23,10 @@ expert const RevealOnScroll = ({ children }) => {
         });
 
     return (
-        <div ref={} className="show">
+        <div ref={ref} className="show">
             
             {children}
         
-        </div>;
-    )
+        </div>
+    );
 };
