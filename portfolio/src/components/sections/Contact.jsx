@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
+import { toast } from 'react-toastify';
 
 export const Contact = (e) => {
     const [emailData, setEmailData] = useState({
@@ -17,7 +18,7 @@ export const Contact = (e) => {
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
         .then((res) => {
-            alert("Message sent successfully!");
+            toast.success("Message sent successfully!");
             setEmailData({
                 name: "",
                 email: "",
@@ -25,9 +26,10 @@ export const Contact = (e) => {
             });
         })
         .catch(err => {
-            alert("Error sending message");
+            toast.error("Error sending message");
         });
     };
+
     return (
         <section id="contact" className="min-h-screen flex items-center justify-center py-20">
             <RevealOnScroll>
