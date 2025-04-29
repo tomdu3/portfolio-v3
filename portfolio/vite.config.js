@@ -8,6 +8,7 @@ export default defineConfig({
     host: '0.0.0.0', // Optional: allows external connections
     allowedHosts: [
       'tomdu3.co.uk', // Your domain
+      '.tomdu3.co.uk', // for subdomains
       'localhost',     // Standard localhost
       '127.0.0.1'     // Local IP
     ]
