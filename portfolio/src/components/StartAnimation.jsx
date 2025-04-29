@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export const StartAnimation = ({ onComplete }) => {
   const [text, setText] = useState("");
-  const fullText = "<Hello World! />";
+  const fullText = "print('Hello World! Python Forever!')";
 
   useEffect(() => {
     let index = 0;
