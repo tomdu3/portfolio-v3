@@ -44,7 +44,7 @@ export const Projects = () => {
                                     <p className="text-gray-400 mb-2">{project.description}</p>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         {project.skills.map((skill, key) => (
-                                            <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                                            <span key={key} className="bg-blue-400/10 text-blue-400 py-1 px-3 rounded-full text-sm hover:bg-blue-400/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                                             >
                                                 {skill}
                                             </span>
@@ -52,7 +52,7 @@ export const Projects = () => {
                                 </div>
                                 <div className="flex justify-between items-center my-2">
                                     <a href={project.link} className="text-blue-400 hover:text-blue-300 transition-colors">View Project  &rarr;</a>
-                                    <a href={project.ghLink} className="text-purple-400 hover:text-pink-300 transition-colors">View Source Code  &rarr;</a>
+                                    <a href={project.ghLink} className="text-fuchsia-400 hover:text-fuchsia-300 transition-colors">View Source Code  &rarr;</a>
                                 </div>
                             </div>
                             )

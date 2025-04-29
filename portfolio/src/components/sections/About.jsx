@@ -54,7 +54,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Frontend</h3>
                             <div className="flex flex-wrap gap-2">
                                 {frontendSkills.map((skill, index) => (
-                                    <span key={index} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                                    <span key={index} className="bg-blue-400/10 text-blue-400 py-1 px-3 rounded-full text-sm hover:bg-blue-400/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                                     >{skill}</span>
                                 ))}
                             </div>
@@ -63,7 +63,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Backend</h3>
                             <div className="flex flex-wrap gap-2">
                                 {backendSkills.map((skill, index) => (
-                                    <span key={index} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                                    <span key={index} className="bg-blue-400/10 text-blue-400 py-1 px-3 rounded-full text-sm hover:bg-blue-400/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                                     >{skill}</span>
                                 ))}
                             </div>
@@ -72,7 +72,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Data Science</h3>
                             <div className="flex flex-wrap gap-2">
                                 {dataScienceSkills.map((skill, index) => (
-                                    <span key={index} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                                    <span key={index} className="bg-blue-400/10 text-blue-400 py-1 px-3 rounded-full text-sm hover:bg-blue-400/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                                     >{skill}</span>
                                 ))}
                             </div>
