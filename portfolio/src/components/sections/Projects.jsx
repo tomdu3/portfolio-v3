@@ -46,7 +46,7 @@ export const Projects = () => {
         {
             title: "Smiley Memories",
             description: "A simple smiley memories game app",
-            image: "https://github.com/tomdu3/smiley-memories/raw/main/docs/amiresponsive.png",
+            image: "https://github.com/tomdu3/smiley-memories/raw/main/assets/readme_files/amiresponsive.png",
             skills: ["HTML", "CSS", "JavaScript"],
             link: "https://tomdu3.github.io/smiley-memories/",
             ghLink: "https://github.com/tomdu3/smiley-memories",
