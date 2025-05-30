@@ -97,7 +97,7 @@ export const About = () => {
                                 <strong>Diploma in Full Stack Development with specialization in Predictive Analytics</strong> - Code Institute, Dublin, Ireland [2022-2024]. 
                             </li>
                             <li>
-                                <strong>Certificates ...</strong> - ...  
+                                <strong>Certificates</strong> Introduction to Computer Science | Harvard University, CS50's Introduction to Programming with Python, Data Analyst and Data Scientist Certificates with Simplilearn
                             </li>
                         </ul>
                     </div>
@@ -106,15 +106,28 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Work Experience</h3>
                         <div className="space-y-4 text-gray-300">
                             <div>
-                                <h4 className="font-semibold">Full Stack Developer at Some Company [2020-2022]</h4>
+                                <h4 className="font-semibold">Freelance Full Stack Developer and Coding Tutor [2023-]</h4>
                                 <p>
-                                    Write something cool about your work experience here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    - Providing personalized tutoring in Python, Front End (HTML, CSS, JavaScript, jQuery), and Back End (Django, Flask, NodeJS) technologies to help individuals and groups gain practical coding skills and solve programming challenges. 
+                                    - My unique blend of technical expertise and teaching ability enables me to facilitate effective learning experiences for my students.
                                 </p>
                             </div>
                             <div>
-                                <h4 className="font-semibold">Full Stack Developer at Some Company [2019-2020]</h4>
+                                <h4 className="font-semibold">Chingu - Voyage 50: Project Owner - Backend Lead [July-August 2024]</h4> 
                                 <p>
-                                    Write something cool about your work experience here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    - NodeJS, ExpressJS, TypeScript, PostgreSQL
+                                    - Led the backend development of Hungry Hippo, a full-stack food delivery web application. 
+                                    - Utilized Node.js, Express, and PostgreSQL to design and implement robust APIs that facilitated seamless order management and tracking.
+                                    - Collaborated with a team of frontend developers using React, Tailwind, and TypeScript to ensure an optimal user experience.
+                                    - Successfully managed project timelines and deliverables within an agile environment.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 className="font-semibold">London School of Informatics - Data Analyst, Associate [April-June 2024]</h4>
+                                <p>
+                                    - Team Lead in performing research and analysis to assist ERP (Enterprise Resource Planning) companies in staying ahead of their competition.
+                                    - Compiled data using data visualization (Excel) by working with senior Data analysts to get meaningful insights that improve organizational processes.
+                                    - Participated in in-house workshops to improve industry knowledge
                                 </p>
                             </div>
                         </div>
