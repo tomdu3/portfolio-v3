@@ -2,6 +2,7 @@ import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
 import { toast } from 'react-toastify';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export const Contact = (e) => {
     const [emailData, setEmailData] = useState({
@@ -72,6 +73,14 @@ export const Contact = (e) => {
                         </div>
                         <button type="submit" className="w-full bg-fuchsia-500 text-white font-medium py-3 px-4 rounded transition relative overflow-hidden hover:-translate-y-0.5 hover:bg-fuchsia-600 hover:shadow-[0_0_15px_rgba(255,0,255,0.4)]">Send</button>
                     </form>
+                    <div className="flex justify-center space-x-6 mt-8">
+                        <a href="https://github.com/tomdu3" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-fuchsia-500 transition-colors">
+                            <FaGithub size={30} />
+                        </a>
+                        <a href="https://linkedin.com/in/tomislav-dukez" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-fuchsia-500 transition-colors">
+                            <FaLinkedin size={30} />
+                        </a>
+                    </div>
                 </div>
             </RevealOnScroll>
         </section>
