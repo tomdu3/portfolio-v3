@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 export const StartAnimation = ({ onComplete }) => {
-  const fullText = "print('Hello World! Python Forever!')";
+  const fullText = "print('Python Forever!')";
   const letters = Array.from(fullText);
 
   const containerVariants = {
@@ -54,7 +54,7 @@ export const StartAnimation = ({ onComplete }) => {
         ))}
       </motion.div>
 
-      <div className="w-[200px] h-[2px] bg-gray-800 rounded relative overflow-hidden">
+      <div className="w-[300px] md:w-[500px] h-[2px] bg-gray-800 rounded relative overflow-hidden">
         <div className="w-[40%] h-full bg-red-500 shadow-[0_0_15px_#f63b70 animate-loading-bar">
           {" "}
         </div>
