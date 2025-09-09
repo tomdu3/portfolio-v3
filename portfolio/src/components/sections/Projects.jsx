@@ -59,7 +59,14 @@ export const Projects = () => {
                             return (
                                 <div key={project.title} className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                                     <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                                    <img src={project.image || placeholderImg} alt={project.title} className="w-full h-[50%] object-cover rounded-xl mb-4" />
+                                    <div className="relative mb-4">
+                                        <img src={project.image || placeholderImg} alt={project.title} className="w-full h-[50%] object-cover rounded-xl" />
+                                        {!project.completed && (
+                                            <div className="absolute bottom-2 right-2 bg-yellow-500 text-red-700 text-xs font-semibold px-2 py-1 rounded-md shadow-lg border border-yellow-500 bg-opacity-90 backdrop-blur-sm">
+                                                WORK IN PROGRESS
+                                            </div>
+                                        )}
+                                    </div>
                                     <p className="text-gray-200 mb-2">{project.description}</p>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         {project.skills.map((skill, skillIndex) => (
