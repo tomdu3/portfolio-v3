@@ -29,7 +29,20 @@ export const Projects = () => {
                                             </div>
                                         )}
                                     </div>
+                                    <p className="text-gray-200 mb-2">{project.description}</p>
+                                    <div className="flex flex-wrap gap-2 mb-4">
+                                        {project.skills.map((skill, key) => (
+                                            <span key={`${index}-${skill}`} className="bg-blue-400/10 text-blue-400 py-1 px-3 rounded-full text-sm hover:bg-blue-400/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                                            >
+                                                {skill}
+                                            </span>
+                                        ))}
                                 </div>
+                                <div className="flex justify-between items-center my-2">
+                                    <a href={project.link} className="text-blue-400 hover:text-blue-300 transition-colors"><span className="hidden md:inline">View </span>Project  &rarr;</a>
+                                    <a href={project.ghLink} className="text-fuchsia-400 hover:text-fuchsia-300 transition-colors"><span className="hidden md:inline">View </span>Source Code  &rarr;</a>
+                                </div>
+                            </div>
                             )
                         }
                         )}
