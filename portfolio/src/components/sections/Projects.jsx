@@ -20,7 +20,7 @@ export const Projects = () => {
                         {projects.map((project, index) => {
                             return (
                                 <div key={project.title}>
-                                    <h3>{project.title}</h3>
+                                    <h3 className="text-xl font-bold mb-2" id={`project-${project.title.replace(/\s+/g, '-').toLowerCase()}`}>{project.title}</h3>
                                 </div>
                             )
                         }
