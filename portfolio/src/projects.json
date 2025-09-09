@@ -58,7 +58,7 @@
     "description": "A simple todo app in Flask with user authentication",
     "image": "https://github.com/tomdu3/todo-flask/raw/main/docs/todo-flask.png",
     "skills": ["Python", "Flask", "HTML", "CSS", "JavaScript", "PostgreSQL"],
-    "link": "https://https://todo.tomdcoding.net/",
+    "link": "https://todo.tomdcoding.net/",
     "ghLink": "https://github.com/tomdu3/todo-flask",
     "completed": false
   },
