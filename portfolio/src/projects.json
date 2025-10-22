@@ -1,7 +1,7 @@
 [
   {
     "title": "Books for Life",
-    "description": "Description of the project",
+    "description": "A platform for book lovers to share and discover book recommendations, built with Django as a tribute to a dear friend's love of reading.",
     "image": "https://github.com/tomdu3/books-for-life/raw/main/docs/images/amiresponsive.png",
     "skills": ["Python", "Django", "Html", "CSS", "JavaScript", "Bootstrap", "jQuery", "PostgreSQL", "Vercel"],
     "link": "https://books-for-life.vercel.app/",
