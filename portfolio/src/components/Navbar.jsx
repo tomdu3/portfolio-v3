@@ -18,12 +18,8 @@ export const Navbar = ({ navOpen, setNavOpen }) => {
             &#9776;
           </div>
           <div className='hidden md:flex items-center space-x-8'>
-            <a
-              href='#home'
-              className='text-gray-300 hover:text-white transition-colors'
-            >
-              Home
-            </a>
+
+
             <a
               href='#about'
               className='text-gray-300 hover:text-white transition-colors'
@@ -41,6 +37,14 @@ export const Navbar = ({ navOpen, setNavOpen }) => {
               className='text-gray-300 hover:text-white transition-colors'
             >
               Contact
+            </a>
+            <a
+              href='https://blog.tomdu3.co.uk'
+              className='text-gray-300 hover:text-white transition-colors'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              My Blog
             </a>
           </div>
         </div>
